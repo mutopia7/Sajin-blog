@@ -1,0 +1,133 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    outline: 0px;
+    letter-spacing: 0.08em;
+}
+
+
+
+
+.text-reset{
+    text-decoration: none;
+}
+
+
+
+/* Header navbar */
+
+.header-nav{
+    background-color: #F2E9E4;
+}
+
+.header-nav a{
+    text-decoration: none;
+    cursor: default;
+    color: black;
+    font-weight: bold;
+}
+
+#logo{
+    font-size: larger;
+    font-weight: bolder;
+    letter-spacing: 1.1em;
+}
+
+/* About me box */
+
+.about-me{
+    background-color: #F2E9E4;
+}
+
+.chat{
+    text-decoration: none;
+    color: #fff;
+    background-color: #000000;
+    border-radius: 5px;
+    
+    letter-spacing: 10px;
+    font-weight: 500;
+}
+
+/* Services box */
+
+.services-header{
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+/* LET’S  WORK  TOGETHER box */
+
+.work-together{
+    height: 500px;
+    background-color: #F2E9E4;
+    position: relative;
+}
+
+#center-image{
+    position: absolute;
+    height: 530px;
+    bottom: 0px;
+    left: 35%;
+    z-index: 1;
+
+}
+
+#bottom-image{
+    position: absolute;
+    height: 480px;
+    top: 50px;
+    left: 60%;
+    z-index: 2;
+    box-shadow: -20px -35px #FFFFFF;
+}
+
+.fly-box{
+    background-color: #fff;
+
+    position: absolute;
+    left: 10%;
+    top: 15%;
+    width: 500px;
+    height: 350px;
+    z-index: 3;
+}
+
+/* follow me box */
+
+.follow{
+    background-color: #F2E9E4;
+    height: 315px;
+}
+
+.follow-img{
+    height: 300px;
+}
+
+
+/* footer */
+.footer a{
+    text-decoration: none;
+    font-weight: 700;
+    color: #000000;
+}
+
+.mode{
+    position: fixed;
+    right: 3px;
+    bottom: 5px;
+    color: black;
+   
+}
+
+
+
+/* media */
+
+@media screen and (max-width:992px) {
+    .follow{
+        height: 220px;
+    }
+    .follow-img{
+        height: 205px;
+    }
+}
